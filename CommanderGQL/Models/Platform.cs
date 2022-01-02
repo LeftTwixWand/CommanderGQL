@@ -10,5 +10,5 @@ public class Platform
     [Required]
     public string Name { get; set; } = string.Empty;
 
-    public string LicenseKey { get; set; } = string.Empty;
+    public string? LicenseKey { get; set; } = string.Empty;
 }
